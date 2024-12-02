@@ -1,0 +1,53 @@
+Mảng: 
+    - Đặc điểm chính:
+        + Các phần tử được lưu trữ liên tiếp trong bộ nhớ.
+        + Truy cập phần tử bằng chỉ số .
+        + Kích thước mảng thường được cố định sau khi khai báo.
+    -  Ứng dụng phổ biến:
+        + Lưu trữ danh sách các phần tử có cùng kiểu dữ liệu.
+        + Thực hiện các phép toán trên mảng như tìm kiếm, sắp xếp.
+        + Đại diện cho các ma trận trong toán học.
+
+Danh sách liên kết:
+    - Đặc điểm chính:
+        + Các phần tử được lưu trữ không liên tiếp trong bộ nhớ, mỗi phần tử chứa dữ liệu và liên kết đến phần tử tiếp theo.
+        + Kích thước danh sách có thể thay đổi động.
+        + Thêm, xóa phần tử ở bất kỳ vị trí nào trong danh sách khá dễ dàng.
+    - Ứng dụng phổ biến: 
+        + Thực hiện các thao tác chèn, xóa phần tử thường xuyên.
+        + Đại diện cho các cấu trúc dữ liệu động như stack, queue.
+        + Sử dụng trong các thuật toán liên quan đến danh sách.
+
+Ngăn xếp :
+    - Đặc điểm chính:
+        + Tuân theo nguyên tắc LIFO (Last In, First Out): phần tử cuối cùng được thêm vào sẽ là phần tử đầu tiên được lấy ra.
+        + Thường được triển khai bằng mảng hoặc danh sách liên kết.
+    - Ứng dụng phổ biến:
+        + Quản lý gọi hàm trong chương trình.
+        + Thực hiện các thuật toán đệ quy.
+        + Kiểm tra tính cân bằng của biểu thức toán học.
+
+Hàng đợi: 
+    - Đặc điểm chính:
+        + Tuân theo nguyên tắc FIFO (First In, First Out): phần tử đầu tiên được thêm vào sẽ là phần tử đầu tiên được lấy ra.
+        + Thường được triển khai bằng mảng hoặc danh sách liên kết.
+    - Ứng dụng phổ biến:
+        +Quản lý các tác vụ chờ xử lý.
+        +Thực hiện các thuật toán tìm kiếm theo chiều rộng.
+        +Sử dụng trong các hệ thống xếp hàng.
+Cây:
+    - Đặc điểm chính:
+        + Một cấu trúc dữ liệu phi tuyến tính, trong đó mỗi nút có nhiều nhất một nút cha và nhiều nút con.
+        + Có nhiều loại cây khác nhau như cây nhị phân, cây tìm kiếm nhị phân, cây AVL.
+    - Ứng dụng phổ biến:
+        + Đại diện cho các cấu trúc phân cấp như hệ thống thư mục.
+        + Thực hiện các thuật toán sắp xếp và tìm kiếm hiệu quả.
+        + Sử dụng trong các cơ sở dữ liệu.
+Đồ thị:
+    - Đặc điểm chính:
+        + Một cấu trúc dữ liệu phi tuyến tính bao gồm các nút và các cạnh kết nối các nút.
+        + Có thể có hướng hoặc vô hướng.
+    - Ứng dụng phổ biến:
+        + Đại diện cho các mạng xã hội, bản đồ đường đi, mạch điện.
+        + Thực hiện các thuật toán tìm đường đi ngắn nhất, kiểm tra liên thông.
+        + Sử dụng trong các bài toán tối ưu hóa.

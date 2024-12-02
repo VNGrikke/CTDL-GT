@@ -1,0 +1,26 @@
+Lưu trữ danh sách sinh viên theo thứ tự nhập vào: Danh sách liên kết
+- lý do: 
+    + Thêm, xóa phần tử ở bất kỳ vị trí nào trong danh sách liên kết rất dễ dàng, đặc biệt là khi cần thêm sinh viên vào cuối danh sách. 
+    + Không cần phải biết trước số lượng sinh viên như khi sử dụng mảng.
+
+Tìm kiếm nhanh tên một sản phẩm trong danh sách hàng triệu sản phẩm: Bảng băm
+- lý do: 
+    + Tìm kiếm trong bảng băm có độ phức tạp trung bình là O(1), rất nhanh, đặc biệt khi danh sách sản phẩm rất lớn.
+    + Mỗi sản phẩm sẽ được ánh xạ vào một vị trí duy nhất trong bảng băm dựa trên một hàm băm, giúp truy xuất dữ liệu nhanh chóng.
+
+Quản lý danh sách các task công việc cần xử lý theo thứ tự ưu tiên: Heap
+- lý do:
+    + Heap là một cây nhị phân hoàn hảo, luôn duy trì tính chất heap (ví dụ: min-heap là cây mà nút cha luôn nhỏ hơn hoặc bằng các nút con).
+    + Ta có thể sử dụng min-heap để ưu tiên xử lý task có độ ưu tiên thấp nhất trước, hoặc max-heap để ưu tiên task có độ ưu tiên cao nhất.
+    + Các thao tác thêm, xóa phần tử có độ phức tạp là O(log n), khá hiệu quả.
+
+Lưu trữ dữ liệu hệ thống phân cấp như thư mục máy tính: Cây
+- lý do: 
+    + Cây thể hiện rõ quan hệ cha con giữa các thư mục.
+    + Mỗi thư mục là một nút trong cây, và thư mục con là nút con của nút cha.
+    + Cây thư mục cho phép thực hiện các thao tạo như tạo thư mục mới, xóa thư mục, tìm kiếm file.
+
+Tìm đường đi ngắn nhất giữa 2 điểm trên bản đồ: Đồ thị
+- lý do:
+    + Bản đồ có thể được mô hình hóa thành một đồ thị, trong đó các nút là các địa điểm và các cạnh là các đường đi giữa các địa điểm.
+    + Có nhiều thuật toán tìm đường đi ngắn nhất trên đồ thị như Dijkstra, A*.
