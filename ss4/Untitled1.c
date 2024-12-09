@@ -10,7 +10,7 @@ typedef struct Node {
 Node* createNode(int value) {
     Node* newNode = (Node*)malloc(sizeof(Node));
     if (!newNode) {
-        printf("Không the cap phat bo nho.\n");
+        printf("Khong the cap phat bo nho.\n");
         exit(1);
     }
     newNode->data = value;
@@ -74,7 +74,6 @@ int main() {
 
     printLinkedList(linkedList);
 
-    freeLinkedList(linkedList);
 
     return 0;
 }
